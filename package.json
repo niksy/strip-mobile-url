@@ -1,6 +1,6 @@
 {
   "name": "strip-mobile-url",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Strip mobile URL parts and convert them to standard URLs.",
   "main": "index.js",
   "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com)",
