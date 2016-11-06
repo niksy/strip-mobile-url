@@ -1,0 +1,40 @@
+{
+  "name": "strip-mobile-url",
+  "version": "0.0.0",
+  "description": "Strip mobile URL parts and convert them to standard URLs.",
+  "main": "index.js",
+  "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com)",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "eslint '{index,test/**/*}.js' && nyc mocha 'test/**/*.js' && nyc check-coverage"
+  },
+  "dependencies": {
+    "normalize-url": "^1.7.0",
+    "parse-domain": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-niksy": "^3.0.1",
+    "mocha": "^3.1.2",
+    "nyc": "^8.4.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "mobile",
+    "strip",
+    "url"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niksy/strip-mobile-url.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niksy/strip-mobile-url/issues"
+  },
+  "homepage": "https://github.com/niksy/strip-mobile-url#readme"
+}
